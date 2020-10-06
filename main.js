@@ -48,7 +48,7 @@ function showDate(){
     const day = weekday[date.getDay()];
     const month = months[date.getMonth()];
 
-    let currentDate = day + " " + dayOfTheMonth + " " + month;
+    let currentDate = day + " " + dayOfTheMonth + "\n" + month;
     document.getElementById('displayDate').innerText = currentDate;
 
    
